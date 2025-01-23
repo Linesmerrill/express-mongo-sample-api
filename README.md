@@ -1,6 +1,6 @@
-# Release Dashboard API
+# Express Mongo Sample API
 
-This is a basic Node.js Express API for managing release information. It uses MongoDB for data storage.
+This is a basic Node.js Express API. It uses MongoDB for data storage.
 
 ## Installation
 
@@ -10,7 +10,7 @@ This is a basic Node.js Express API for managing release information. It uses Mo
 
 2. Install dependencies:
 
-   cd release-dashboard-api
+   cd express-mongo-sample-api
    npm install
 
 3. Configure environment variables:
