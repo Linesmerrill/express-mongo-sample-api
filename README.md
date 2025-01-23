@@ -30,8 +30,11 @@ This is a basic Node.js Express API for managing release information. It uses Mo
 
 ## API Routes
 
-* GET /api/releases:
-    * Retrieves all releases.
+* **GET /api/releases:** Retrieves all releases.
+* **GET /api/releases/:id:** Retrieves a single release by ID.
+* **POST /api/releases:** Creates a new release.
+* **PUT /api/releases/:id:** Updates a release by ID.
+* **DELETE /api/releases/:id:** Deletes a release by ID.
 
     Example Usage:
 
