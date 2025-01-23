@@ -2,7 +2,7 @@
 
 This is a basic Node.js Express API for managing release information. It uses MongoDB for data storage.
 
-Installation
+## Installation
 
 1. Clone the repository:
 
@@ -20,7 +20,7 @@ Installation
 
       MONGODB_URI=<your-mongodb-connection-string>
 
-Running the API
+## Running the API
 
 1. Start the server:
 
@@ -28,7 +28,7 @@ Running the API
 
    This will start the server on http://localhost:3000 (or the port specified in your .env file).
 
-API Routes
+## API Routes
 
 * GET /api/releases:
     * Retrieves all releases.
@@ -37,10 +37,10 @@ API Routes
 
     GET http://localhost:3000/api/releases
 
-Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit pull requests.
 
-License
+## License
 
 This project is licensed under the MIT License.
